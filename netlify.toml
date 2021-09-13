@@ -4,6 +4,7 @@
   [headers.values]
 	cache-control = '''
 	must-revalidate=false,
+	no-store,
 	max-age=0'''
 
 [build]
