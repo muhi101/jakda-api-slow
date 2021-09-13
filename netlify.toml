@@ -3,6 +3,7 @@
   for = "/*"
   [headers.values]
 	cache-control = '''
+	must-revalidate=false,
 	max-age=0'''
 
 [build]
