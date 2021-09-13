@@ -1,0 +1,17 @@
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store=false,
+	must-revalidate'''
+
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/"
+  to = "/earworms.json"
+  status = 302
