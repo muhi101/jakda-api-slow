@@ -3,10 +3,7 @@
   for = "/*"
   [headers.values]
 	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store=false,
-	must-revalidate'''
+	max-age=0'''
 
 [build]
   publish = "public"
